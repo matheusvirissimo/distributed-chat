@@ -41,15 +41,13 @@ chat_rpc/
 ### 1. Iniciar o servidor
 
 ```bash
-cd chat_rpc
-python -m servidor.servidor
+python -m server.servidor
 ```
 
 ### 2. Conectar um cliente (abrir em outro terminal)
 
 ```bash
-cd chat_rpc
-python -m cliente.cliente
+python -m client.cliente
 ```
 
 Abra quantos terminais desejar para testar múltiplos clientes simultaneamente.
